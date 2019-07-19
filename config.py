@@ -11,7 +11,7 @@ if len(sys.argv) != 16:
 import random
 import string
 import crypt
-
+#it is very importent
 MAGIC_GID = int(''.join(random.choice(string.digits[1:]) for x in range(9))) # string.digits[1:] because we don't want any zeros in the magic gid. fuck that
 
 # so this is more compact than what was previously here, but might be somewhat more difficult to understand,
